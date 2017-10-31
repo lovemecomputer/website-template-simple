@@ -19,6 +19,16 @@ simple repository of starter website files 🌱🌸
 
 ## notes
 
+### Sass
+from the project root, run this command:
+
+```
+sass --watch styles/main.scss:main.css
+```
+
+- [installing Sass](http://sass-lang.com/install)
+- [more Sass usage info](http://sass-lang.com/guide)
+
 ### units
 
 `<html>` is set to `0.625rem` (10px equivalent) <br>`<body>` font size is set to `1.6rem` (16px equivalent)
@@ -30,14 +40,3 @@ Thus,
 ```
 
 Use these scaling-friendly `rem` units wherever possible :)
-
-
-### Sass
-from the project root, run this command:
-
-```
-sass --watch styles/main.scss:main.css
-```
-
-- [installing Sass](http://sass-lang.com/install)
-- [more Sass usage info](http://sass-lang.com/guide)
