@@ -1,4 +1,4 @@
-# project-template-simple
+# website-template-simple
 
 simple repository of starter website files 🌱🌸
 
