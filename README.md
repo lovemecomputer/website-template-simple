@@ -12,3 +12,15 @@ simple repository of starter website files 🌱🌸
 - `styles` directory for `.scss` files
 - simple `.gitignore` that excludes many OS files
 - simple `.surgeignore` file, good for a reference of what you ignore when deploying.
+
+
+## notes
+
+to use Sass, from the project root, run this command:
+
+```
+sass --watch styles/main.scss:main.css
+```
+
+- [installing Sass](http://sass-lang.com/install)
+- [more Sass usage info](http://sass-lang.com/guide)
