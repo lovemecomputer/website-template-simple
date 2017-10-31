@@ -21,7 +21,7 @@ simple repository of starter website files 🌱🌸
 
 ### units
 
-`<html>` is set to `0.625rem` (10px equivalent), <br>`<body>` font size is set to `1.6rem`.
+`<html>` is set to `0.625rem` (10px equivalent) <br>`<body>` font size is set to `1.6rem` (16px equivalent)
 
 Thus,
 ```
