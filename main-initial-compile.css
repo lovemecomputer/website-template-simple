@@ -1,4 +1,4 @@
-/* Define color variables =================== */
+/* Define variables =================== */
 /* Import partials =================== */
 html {
   font-size: 0.625rem;
@@ -9,7 +9,7 @@ html {
 body {
   background: #fff;
   color: #414141;
-  font-family: Poppins, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
   /* 16px equivalent */
   font-weight: 400; }
