@@ -1,0 +1,110 @@
+html {
+  font-size: 0.625rem; /* 10px equivalent thanks to default of 16px */
+
+  & * {
+    box-sizing: border-box;
+  }
+}
+
+body {
+  background: $color-background;
+  color: $color-text-primary;
+  font-family: Poppins, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.6rem; /* 16px equivalent */
+  font-weight: $weight-normal;
+}
+
+a {
+  border-bottom: .2rem solid transparent;
+  color: $color-link;
+  font-weight: $weight-bold;
+  text-decoration: none;
+  transition: .3s ease all;
+}
+
+a:hover {
+  transition: .1s ease all;
+  border-bottom-color: inherit;
+}
+
+/* form fields */
+input, textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 2px solid #e5e5e5;
+  padding: .8rem;
+
+  &:focus {
+    outline: none;
+    border-color: pink;
+    z-index: 100;
+  }
+}
+button, input[type="button"], input[type="submit"],
+.btn-link {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #fff;
+  border: .2rem solid;
+  color: $color-link;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-weight: $weight-bold;
+  // padding: 1.35rem 1.3rem;
+  padding: .8rem;
+  transition: .3s ease all;
+
+  &.primary {
+    color: $color-primary;
+  }
+
+  &:hover {
+    color: #fff;
+    background: $color-link;
+    border-color: $color-link;
+  }
+
+  &:active {
+    color: #fff;
+    background: $color-link;
+    transform: translateY(2px);
+    transition: 0s ease all;
+  }
+
+  &:disabled {
+    color: #bbb;
+    background: #f0f0f0;
+    border-color: #f0f0f0;
+
+    &:hover {
+      cursor: default;
+    }
+  }
+
+  &:focus {
+    outline: 2px solid pink;
+    // border-color: pink;
+    z-index: 100;
+  }
+}
+.btn-link:not([href]) {
+  background: transparent;
+  border-color: transparent;
+  color: #9c9b9b;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $weight-bold;
+}
+
+hr {
+  margin: 4rem 0;
+  border: none;
+  border-top: 1px solid $color-edges;
+  background: none;
+  height: 0;
+}

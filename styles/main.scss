@@ -1,0 +1,14 @@
+/* Define variables =================== */
+$color-primary: #2328ff;
+$color-text-primary: #414141;
+$color-link: #000;
+$color-link-hover: $color-link;
+$color-background: #fff;
+$color-edges: #d5d5d5;
+
+$weight-normal: 400;
+$weight-bold: 600;
+
+/* Import partials =================== */
+@import "base";
+@import "layout";
